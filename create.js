@@ -39,8 +39,8 @@ function generatePhotoCard(photoURL, caption) {
 function removeLastPhotoCard() {
   var photoCards = document.getElementsByClassName("photo-card");
   var lastPhotoCard = photoCards[photoCards.length - 1];
-  // lastPhotoCard.remove();
-  lastPhotoCard.parentNode.removeChild(lastPhotoCard);
+  lastPhotoCard.remove();
+  // lastPhotoCard.parentNode.removeChild(lastPhotoCard);
 }
 
 generatePhotoCard("http://placekitten.com/480/480", "Luke as a kitty");
