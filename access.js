@@ -34,4 +34,5 @@ images[0].src = "http://placekitten.com/480/480";
 firstPhotoCard.innerHTML = "<p>This is a new paragraph</p>";
 
 var userSuppliedValue = "<img onerror=\"alert('Hacked!')\" src=x>";
-firstPhotoCard.innerHTML = userSuppliedValue;
+// firstPhotoCard.innerHTML = userSuppliedValue;
+firstPhotoCard.textContent = userSuppliedValue;
